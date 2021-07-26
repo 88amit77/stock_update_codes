@@ -1,0 +1,12 @@
+/Users/amittiwari/PycharmProjects/drop_box/venv/bin/python /Users/amittiwari/Downloads/snapdeal_stock_update/order_print.py
+fetch accounts
+portal_accounts==> [(10, 'snapdealp', 'portalmanager@sellerbuymore.com', 'Counfreedise@123', [{'name': 'xauthtoken', 'base_url': '300db07f-85f7-33dd-936e-614801f89bee'}, {'name': 'xsellerauthztoken', 'base_url': 'ea3571d5-0fd4-4035-8200-b97dac283bbd'}, {'name': 'clientid', 'base_url': '197'}], [{'warehouse_id': 4, 'warehouse_name': 'QSBH', 'portal_warehouse': 'Sf3174'}], 8, 22)]
+payload== {"fulfillmentType": "DROPSHIP", "orderCodes": ["SLP3220009792"]}
+headers==== {'x-auth-token': '300db07f-85f7-33dd-936e-614801f89bee', 'X-Seller-AuthZ-Token': 'ea3571d5-0fd4-4035-8200-b97dac283bbd', 'clientId': '197', 'Content-Type': 'application/json'}
+{"metadata":{"requestId":"cc36d31d-db30-4fd4-9476-6bb8cc702445","clientId":"197","responseTime":1370,"requestedURI":"POST /orders/print"},"payload":{"downloadLink":"https://sdprd.s3.amazonaws.com/sd-seller-api/orderExport/Sf3174_INVOICE_DROPSHIP_1622725795824.pdf","orderDetails":{"SLP3220009792":{"operationSuccessful":true}}}}
+approved_orders==2>> {'status': False, 'data': '', 'error': <Response [200]>}
+error_log order id SLP3220009792: Error 402
+
+{'status': True}
+
+Process finished with exit code 0

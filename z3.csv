@@ -1,0 +1,5 @@
+"Task name","task type","Labels","status","comment","Time spent"
+"lambda function db connection modification","Non Regular Task ","in progress","","2021-06-16","3.22"
+"cron code running issue","Non Regular Task ","done","issue with instance ","2021-06-16","3.05"
+"wms scan api issue","Non Regular Task ","done","query wise its ok...issue with large amount of data","2021-06-16","0.99"
+"return table partial import issue","Non Regular Task ","done","","2021-06-16","0.43"
